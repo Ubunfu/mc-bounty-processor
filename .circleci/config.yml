@@ -15,7 +15,7 @@ jobs:
           command: npm install
       - run:
           name: Install Codecov
-          command: npm install -g codecov
+          command: sudo npm install -g codecov
       - run: 
           name: Test
           command: npm run test
