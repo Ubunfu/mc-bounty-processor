@@ -1,4 +1,10 @@
 # mc-bounty-processor
+[![Latest Release](https://img.shields.io/github/v/release/Ubunfu/mc-bounty-processor)](https://github.com/Ubunfu/mc-bounty-processor/releases)
+[![codecov](https://codecov.io/gh/Ubunfu/mc-bounty-processor/branch/master/graph/badge.svg?token=K1YOPWSEQD)](https://codecov.io/gh/Ubunfu/mc-bounty-processor)
+[![CircleCI](https://img.shields.io/circleci/build/github/Ubunfu/mc-bounty-processor?logo=circleci)](https://app.circleci.com/pipelines/github/Ubunfu/mc-bounty-processor)
+![Contrubutors](https://img.shields.io/github/contributors/Ubunfu/mc-bounty-processor?color=blue)
+![Last Commit](https://img.shields.io/github/last-commit/Ubunfu/mc-bounty-processor)
+
 Processes bounty requests submitted by [mc-bounty-scraper](https://github.com/Ubunfu/mc-bounty-scraper).  Valid bounties will be awarded by submitting a request to the [mc-wallet](https://github.com/Ubunfu/mc-wallet) service.
 
 This service runs as an AWS lambda function.
