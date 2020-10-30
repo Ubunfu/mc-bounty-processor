@@ -1,0 +1,31 @@
+{
+  "name": "mc-bounty-processor",
+  "version": "0.1.0",
+  "description": "Processor for bounty requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --recursive test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ubunfu/mc-bounty-processor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ubunfu/mc-bounty-processor/issues"
+  },
+  "homepage": "https://github.com/Ubunfu/mc-bounty-processor#readme",
+  "dependencies": {
+    "aws-sdk": "^2.778.0",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^5.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.0"
+  }
+}
