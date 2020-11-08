@@ -1,0 +1,76 @@
+{
+    "bounties": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "A Seedy Place"
+                    },
+                    "Value": {
+                        "N": "100"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Two by Two"
+                    },
+                    "Value": {
+                        "N": "6969"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "A Complete Catalogue"
+                    },
+                    "Value": {
+                        "N": "6969"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Tactical Fishing"
+                    },
+                    "Value": {
+                        "N": "75"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "A Balanced Diet"
+                    },
+                    "Value": {
+                        "N": "3500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Serious Dedication"
+                    },
+                    "Value": {
+                        "N": "1217"
+                    }
+                }
+            }
+        }
+    ]
+}
