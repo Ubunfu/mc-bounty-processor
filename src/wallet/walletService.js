@@ -5,8 +5,8 @@ async function pay(player, amount) {
         return await axios.post(
             process.env.SERVICE_WALLET_URL,
             {
-                PlayerId: player,
-                Amount: amount
+                player: player,
+                amount: amount
             }
         );
     } catch (err) {
