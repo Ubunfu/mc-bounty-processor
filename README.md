@@ -22,3 +22,5 @@ AWS's standard IAM role for Lambda micro services is plenty sufficient. The only
 | TABLE_BOUNTIES     | The name of a DynamoDB table containing valid bounties and their values.          | n/a     | Yes       |
 | SERVICE_WALLET_URL | The full URL of the mc-wallet payment service.                                    | n/a     | Yes       |
 | LOGGER_ENABLED     | Boolean value controlling writing of logs. Useful to turn off for test execution. | n/a     | Yes       |
+| DISCORD_WEBHOOK_URL | Discord webhook URL used to post notifications when bounties are turned in.      | n/a     | Yes       |
+| DISCORD_WEBHOOK_THUMBNAIL_URL | URL of a thumbnail image to use for the Discord notification.          | n/a     | Yes       |

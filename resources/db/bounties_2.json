@@ -1,0 +1,304 @@
+{
+    "bounties": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Uneasy Alliance"
+                    },
+                    "Value": {
+                        "N": "1196"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "War Pigs"
+                    },
+                    "Value": {
+                        "N": "400"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Country Lode, Take Me Home"
+                    },
+                    "Value": {
+                        "N": "3000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Cover Me in Debris"
+                    },
+                    "Value": {
+                        "N": "9999"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Spooky Scary Skeleton"
+                    },
+                    "Value": {
+                        "N": "3500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Into Fire"
+                    },
+                    "Value": {
+                        "N": "750"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Not Quite \"Nine\" Lives"
+                    },
+                    "Value": {
+                        "N": "500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Hot Tourist Destinations"
+                    },
+                    "Value": {
+                        "N": "1206"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Withering Heights"
+                    },
+                    "Value": {
+                        "N": "7000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Local Brewery"
+                    },
+                    "Value": {
+                        "N": "1199"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Bring Home the Beacon"
+                    },
+                    "Value": {
+                        "N": "1000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "A Furious Cocktail"
+                    },
+                    "Value": {
+                        "N": "4000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Beaconator"
+                    },
+                    "Value": {
+                        "N": "1000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "How Did We Get Here?"
+                    },
+                    "Value": {
+                        "N": "8000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "The End"
+                    },
+                    "Value": {
+                        "N": "3000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Free the End"
+                    },
+                    "Value": {
+                        "N": "15000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "The Next Generation"
+                    },
+                    "Value": {
+                        "N": "1500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Remote Getaway"
+                    },
+                    "Value": {
+                        "N": "250"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "The End... Again..."
+                    },
+                    "Value": {
+                        "N": "2500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "You Need a Mint"
+                    },
+                    "Value": {
+                        "N": "2500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "The City at the End of the Game"
+                    },
+                    "Value": {
+                        "N": "1250"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Sky's the Limit"
+                    },
+                    "Value": {
+                        "N": "7500"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Great View From Up Here"
+                    },
+                    "Value": {
+                        "N": "800"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Adventure"
+                    },
+                    "Value": {
+                        "N": "25"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "BountyId": {
+                        "S": "Voluntary Exile"
+                    },
+                    "Value": {
+                        "N": "650"
+                    }
+                }
+            }
+        }
+    ]
+}
