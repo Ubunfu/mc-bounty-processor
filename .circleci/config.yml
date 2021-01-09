@@ -58,6 +58,7 @@ workflows:
       - deploy-dev:
           context:
             - craftonomy-dev
+            - mc-bounty-processor-dev
           requires:
             - build-and-test
           filters:
@@ -68,6 +69,7 @@ workflows:
       - deploy-prod:
           context:
             - craftonomy-prod
+            - mc-bounty-processor-prod
           requires:
             - build-and-test
           filters:
