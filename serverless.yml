@@ -14,12 +14,6 @@ provider:
     TABLE_BOUNTIES: bounties
     LOGGER_ENABLED: true
 
-custom:
-  serverlessSsmFetch:
-    SERVICE_WALLET_URL: /mc-bounty-processor/${opt:stage}/SERVICE_WALLET_URL
-    DISCORD_WEBHOOK_URL: /mc-bounty-processor/${opt:stage}/DISCORD_WEBHOOK_URL
-    DISCORD_WEBHOOK_THUMBNAIL_URL: /mc-bounty-processor/${opt:stage}/DISCORD_WEBHOOK_THUMBNAIL_URL
-
 functions:
   mc-bounty-processor:
     handler: src/index.handler
@@ -30,5 +24,6 @@ functions:
     environment:
       TABLE_BOUNTIES: bounties
       LOGGER_ENABLED: true
-plugins:
-  - serverless-ssm-fetch
+      SERVICE_WALLET_URL: ${env:${opt:stage}-SERVICE_WALLET_URL}
+      DISCORD_WEBHOOK_URL: ${env:${opt:stage}-DISCORD_WEBHOOK_URL}
+      DISCORD_WEBHOOK_THUMBNAIL_URL: ${env:${opt:stage}-DISCORD_WEBHOOK_THUMBNAIL_URL}
