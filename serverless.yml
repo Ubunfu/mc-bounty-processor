@@ -19,8 +19,8 @@ functions:
     handler: src/index.handler
     events:
       - httpApi:
-          path: /user
-          method: get
+          path: /bounty
+          method: post
     environment:
       TABLE_BOUNTIES: bounties
       LOGGER_ENABLED: true
