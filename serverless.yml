@@ -1,7 +1,7 @@
-app: mc-bounty-scraper
+app: mc-bounty-processor
 org: ryanallen
 
-service: mc-bounty-scraper
+service: mc-bounty-processor
 
 frameworkVersion: '2'
 
