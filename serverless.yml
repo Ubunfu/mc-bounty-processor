@@ -1,0 +1,26 @@
+app: mc-bounty-scraper
+org: ryanallen
+
+service: mc-bounty-scraper
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-1
+  role: arn:aws:iam::425071954352:role/service-role/mc-microservice-role
+  environment:
+    TABLE_BOUNTIES: bounties
+    LOGGER_ENABLED: true
+
+functions:
+  mc-wallet:
+    handler: src/index.handler
+    events:
+      - httpApi:
+          path: /user
+          method: get
+    environment:
+      SERVICE_WALLET_URL: https://ixcdxo6df7.execute-api.us-east-1.amazonaws.com
+      DISCORD_WEBHOOK_THUMBNAIL_URL: https://mc-log-bot-assets.s3.us-east-2.amazonaws.com/bounty-hunter-logo.png
