@@ -14,6 +14,12 @@ provider:
     TABLE_BOUNTIES: bounties
     LOGGER_ENABLED: true
 
+custom:
+  serverlessSsmFetch:
+    SERVICE_WALLET_URL: /mc-bounty-processor/${opt:stage}/SERVICE_WALLET_URL
+    DISCORD_WEBHOOK_URL: /mc-bounty-processor/${opt:stage}/DISCORD_WEBHOOK_URL
+    DISCORD_WEBHOOK_THUMBNAIL_URL: /mc-bounty-processor/${opt:stage}/DISCORD_WEBHOOK_THUMBNAIL_URL
+
 functions:
   mc-bounty-processor:
     handler: src/index.handler
@@ -22,5 +28,7 @@ functions:
           path: /user
           method: get
     environment:
-      SERVICE_WALLET_URL: https://ixcdxo6df7.execute-api.us-east-1.amazonaws.com
-      DISCORD_WEBHOOK_THUMBNAIL_URL: https://mc-log-bot-assets.s3.us-east-2.amazonaws.com/bounty-hunter-logo.png
+      TABLE_BOUNTIES: bounties
+      LOGGER_ENABLED: true
+plugins:
+  - serverless-ssm-fetch
