@@ -56,6 +56,8 @@ workflows:
     jobs:
       - build-and-test
       - deploy-dev:
+          context:
+            - craftonomy-dev
           requires:
             - build-and-test
           filters:
@@ -64,6 +66,8 @@ workflows:
                 - develop
                 - feature/serverless-framework
       - deploy-prod:
+          context:
+            - craftonomy-prod
           requires:
             - build-and-test
           filters:
