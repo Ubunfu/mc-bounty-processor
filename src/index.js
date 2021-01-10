@@ -3,17 +3,8 @@ const dbService = require('./db/dbService.js');
 const { log } = require('./util/logger.js');
 const walletService = require('./wallet/walletService.js');
 const AWS = require ('aws-sdk');
+const axios = require('axios');
 
-/**
- * Demonstrates a simple HTTP endpoint using API Gateway. You have full
- * access to the request and response payload, including headers and
- * status code.
- *
- * To scan a DynamoDB table, make a GET request with the TableName as a
- * query string parameter. To put, update, or delete an item, make a POST,
- * PUT, or DELETE request respectively, passing in the payload to the
- * DynamoDB API as a JSON body.
- */
 exports.handler = async (event, context) => {
     await log('Received event: ' + JSON.stringify(event, null, 2));
 
@@ -45,6 +36,14 @@ exports.handler = async (event, context) => {
     try {
         if (statusCode == '200') {
             await walletService.pay(player, bountyValue);
+            try {
+                await axios.post(
+                    process.env.DISCORD_WEBHOOK_URL,
+                    await buildDiscordPayload(player, bounty, bountyValue)
+                );
+            } catch (err) {
+                log('Error sending notification to Discord: ' + err);
+            }
         }
     } catch (err) {
         log(err);
@@ -62,3 +61,26 @@ exports.handler = async (event, context) => {
         headers,
     };
 };
+
+async function buildDiscordPayload(player, bounty, bountyValue) {
+    return {
+        "embeds": [
+            {
+                "author": {
+                    "name": "Bounty Hunter"
+                },
+                "thumbnail": {
+                    "url": process.env.DISCORD_WEBHOOK_THUMBNAIL_URL
+                },
+                "title": `Bounty turned in by ${player}`,
+                "color": 8421504,
+                "fields": [
+                    {
+                        "name": `${bounty}`,
+                        "value": bountyValue
+                    }
+                ]
+            }
+        ]
+    }
+}
