@@ -65,7 +65,6 @@ workflows:
             branches:
               only:
                 - develop
-                - feature/serverless-framework
       - deploy-prod:
           context:
             - craftonomy-prod

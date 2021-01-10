@@ -2,7 +2,7 @@
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
 ## [v0.3.0]
-* [Adopting serverless framework](https://github.com/Ubunfu/mc-bounty-processor/pull/6)
+* [Adopting serverless framework](https://github.com/Ubunfu/mc-bounty-processor/pull/7)
 
 ## [v0.2.0]
 * [Fixing wallet service interface](https://github.com/Ubunfu/mc-bounty-processor/pull/3)
