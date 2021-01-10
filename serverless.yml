@@ -1,0 +1,29 @@
+app: mc-bounty-processor
+org: ryanallen
+
+service: mc-bounty-processor
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-1
+  role: arn:aws:iam::425071954352:role/service-role/mc-microservice-role
+  environment:
+    TABLE_BOUNTIES: bounties
+    LOGGER_ENABLED: true
+
+functions:
+  mc-bounty-processor:
+    handler: src/index.handler
+    events:
+      - httpApi:
+          path: /bounty
+          method: post
+    environment:
+      TABLE_BOUNTIES: bounties
+      LOGGER_ENABLED: true
+      SERVICE_WALLET_URL: ${env:SERVICE_WALLET_URL}
+      DISCORD_WEBHOOK_URL: ${env:DISCORD_WEBHOOK_URL}
+      DISCORD_WEBHOOK_THUMBNAIL_URL: ${env:DISCORD_WEBHOOK_THUMBNAIL_URL}

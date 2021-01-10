@@ -1,6 +1,6 @@
 {
   "name": "mc-bounty-processor",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Processor for bounty requests",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Ubunfu/mc-bounty-processor#readme",
   "dependencies": {
     "aws-sdk": "^2.778.0",
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
