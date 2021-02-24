@@ -1,6 +1,6 @@
 {
   "name": "mc-bounty-processor",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Processor for bounty requests",
   "main": "index.js",
   "scripts": {
