@@ -1,6 +1,10 @@
 # Changelog
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
+## [v1.0.0]
+* [Adding database to serverless stack](https://github.com/Ubunfu/mc-bounty-processor/pull/9)
+* [Configuring Discord cicd notifications](https://github.com/Ubunfu/mc-bounty-processor/pull/10)
+
 ## [v0.3.0]
 * [Adopting serverless framework](https://github.com/Ubunfu/mc-bounty-processor/pull/7)
 
