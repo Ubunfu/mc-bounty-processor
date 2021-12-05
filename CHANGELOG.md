@@ -1,11 +1,8 @@
 # Changelog
 This project attempts to conform to [SemVer](https://semver.org/) guidelines whenever possible.
 
-## [v1.1.1]
-* [Adding missing 1.17 bounties](https://github.com/Ubunfu/mc-bounty-processor/pull/14)
-
 ## [v1.1.0]
-* [Adding 1.18 bounties](https://github.com/Ubunfu/mc-bounty-processor/pull/12)
+* [Adding 1.17 and 1.18 bounties](https://github.com/Ubunfu/mc-bounty-processor/pull/12)
 
 ## [v1.0.0]
 * [Adding database to serverless stack](https://github.com/Ubunfu/mc-bounty-processor/pull/9)
