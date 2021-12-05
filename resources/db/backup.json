@@ -1,0 +1,282 @@
+[
+  {
+    "BountyId": "Hero of the Village",
+    "Value": 250
+  },
+  {
+    "BountyId": "Into Fire",
+    "Value": 750
+  },
+  {
+    "BountyId": "Ice Bucket Challenge",
+    "Value": 1000
+  },
+  {
+    "BountyId": "The End",
+    "Value": 3000
+  },
+  {
+    "BountyId": "Country Lode, Take Me Home",
+    "Value": 3000
+  },
+  {
+    "BountyId": "Fishy Business",
+    "Value": 75
+  },
+  {
+    "BountyId": "Adventure",
+    "Value": 25
+  },
+  {
+    "BountyId": "Arbalistic",
+    "Value": 750
+  },
+  {
+    "BountyId": "Take Aim",
+    "Value": 100
+  },
+  {
+    "BountyId": "You Need a Mint",
+    "Value": 2500
+  },
+  {
+    "BountyId": "Enchanter",
+    "Value": 500
+  },
+  {
+    "BountyId": "Who is Cutting Onions?",
+    "Value": 1250
+  },
+  {
+    "BountyId": "Eye Spy",
+    "Value": 750
+  },
+  {
+    "BountyId": "A Seedy Place",
+    "Value": 100
+  },
+  {
+    "BountyId": "A Balanced Diet",
+    "Value": 3500
+  },
+  {
+    "BountyId": "Cover Me with Diamonds",
+    "Value": 1000
+  },
+  {
+    "BountyId": "A Complete Catalogue",
+    "Value": 6969
+  },
+  {
+    "BountyId": "Return to Sender",
+    "Value": 5000
+  },
+  {
+    "BountyId": "This Boat Has Legs",
+    "Value": 666
+  },
+  {
+    "BountyId": "Diamonds!",
+    "Value": 500
+  },
+  {
+    "BountyId": "War Pigs",
+    "Value": 400
+  },
+  {
+    "BountyId": "Free the End",
+    "Value": 15000
+  },
+  {
+    "BountyId": "A Terrible Fortress",
+    "Value": 500
+  },
+  {
+    "BountyId": "Serious Dedication",
+    "Value": 1217
+  },
+  {
+    "BountyId": "Hot Stuff",
+    "Value": 50
+  },
+  {
+    "BountyId": "We Need to Go Deeper",
+    "Value": 3000
+  },
+  {
+    "BountyId": "Hired Help",
+    "Value": 1000
+  },
+  {
+    "BountyId": "The End?",
+    "Value": 5000
+  },
+  {
+    "BountyId": "Best Friends Forever",
+    "Value": 250
+  },
+  {
+    "BountyId": "Ol' Betsy",
+    "Value": 1243
+  },
+  {
+    "BountyId": "The City at the End of the Game",
+    "Value": 1250
+  },
+  {
+    "BountyId": "Adventuring Time",
+    "Value": 2500
+  },
+  {
+    "BountyId": "Subspace Bubble",
+    "Value": 3000
+  },
+  {
+    "BountyId": "Sniper Duel",
+    "Value": 750
+  },
+  {
+    "BountyId": "Postmortal",
+    "Value": 1250
+  },
+  {
+    "BountyId": "Bring Home the Beacon",
+    "Value": 1000
+  },
+  {
+    "BountyId": "Voluntary Exile",
+    "Value": 650
+  },
+  {
+    "BountyId": "Getting an Upgrade",
+    "Value": 10
+  },
+  {
+    "BountyId": "Not Today, Thank You",
+    "Value": 25
+  },
+  {
+    "BountyId": "Sticky Situation",
+    "Value": 1202
+  },
+  {
+    "BountyId": "How Did We Get Here?",
+    "Value": 8000
+  },
+  {
+    "BountyId": "Monster Hunter",
+    "Value": 50
+  },
+  {
+    "BountyId": "Great View From Up Here",
+    "Value": 800
+  },
+  {
+    "BountyId": "Hot Tourist Destinations",
+    "Value": 1206
+  },
+  {
+    "BountyId": "Nether",
+    "Value": 3000
+  },
+  {
+    "BountyId": "Isn't It Iron Pick",
+    "Value": 20
+  },
+  {
+    "BountyId": "Sky's the Limit",
+    "Value": 7500
+  },
+  {
+    "BountyId": "Very Very Frightening",
+    "Value": 3500
+  },
+  {
+    "BountyId": "The End... Again...",
+    "Value": 2500
+  },
+  {
+    "BountyId": "TestBounty",
+    "Value": 0
+  },
+  {
+    "BountyId": "Bullseye",
+    "Value": 1000
+  },
+  {
+    "BountyId": "Hidden in the Depths",
+    "Value": 2000
+  },
+  {
+    "BountyId": "Cover Me in Debris",
+    "Value": 10000
+  },
+  {
+    "BountyId": "Not Quite \"Nine\" Lives",
+    "Value": 3000
+  },
+  {
+    "BountyId": "Oh Shiny",
+    "Value": 7777
+  },
+  {
+    "BountyId": "Caves & Cliffs",
+    "Value": 50000
+  },
+  {
+    "BountyId": "Feels like home",
+    "Value": 5000
+  },
+  {
+    "BountyId": "Sound of Music",
+    "Value": 4000
+  },
+  {
+    "BountyId": "Star Trader",
+    "Value": 30000
+  },
+  {
+    "BountyId": "Whatever Floats Your Goat!",
+    "Value": 5000
+  },
+  {
+    "BountyId": "Wax On",
+    "Value": 750
+  },
+  {
+    "BountyId": "Wax Off",
+    "Value": 750
+  },
+  {
+    "BountyId": "The Cutest Predator",
+    "Value": 3000
+  },
+  {
+    "BountyId": "The Healing Power of Friendship!",
+    "Value": 5000
+  },
+  {
+    "BountyId": "Glow and Behold!",
+    "Value": 1000
+  },
+  {
+    "BountyId": "Light as a Rabbit",
+    "Value": 500
+  },
+  {
+    "BountyId": "Surge Protector",
+    "Value": 11111
+  },
+  {
+    "BountyId": "Is It a Bird?",
+    "Value": 8888
+  },
+  {
+    "BountyId": "Is It a Balloon?",
+    "Value": 6666
+  },
+  {
+    "BountyId": "Is It a Plane?",
+    "Value": 20000
+  }
+ ]
